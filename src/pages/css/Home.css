@@ -1,0 +1,54 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.logoHome {
+    margin-bottom: -40px;
+}
+
+.homeMain {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    margin-top: 13px;
+}
+
+@media (max-width: 730px) {
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .logoHome {
+        margin-bottom: -20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .logoHome {
+        margin-bottom: -15px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 0.8rem;
+        margin-bottom: -70px;
+    }
+
+    .logoHome {
+        margin-bottom: -10px;
+    }
+}

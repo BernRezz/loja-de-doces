@@ -1,0 +1,148 @@
+.formulario {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.588);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.formCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 32px;
+    width: fit-content;
+    background-color: white;
+    box-shadow: #00000064 2px 2px 2px;
+    z-index: 999;
+}
+
+.formCard form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formCard label {
+    margin: 5px;
+}
+
+.formMain .closeBtn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 25px;
+    font-weight: 900;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    opacity: 1;
+    color: black;
+    border: transparent;
+    background-color: transparent;
+}
+.closeBtn:hover {
+    opacity: 0.8;
+    color: gray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.formSwitch {
+    position: relative;
+}
+
+button.advance {
+    background-color: #19c4c7;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    position: relative;
+    margin-top: 10px;
+    padding: 8px;
+    width: 92%;
+}
+
+button.advance:hover {
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px;
+    transition: 0.2s;
+}
+
+button:disabled {
+    opacity: 0.40;
+    background-color: black;
+}
+
+p.invalidForm {
+    color: crimson;
+}
+
+p.success {
+    color: lime;
+}
+
+.inputForm {
+    background-color: rgba(128, 128, 128, 0.199);
+    width: 25em;
+    margin-right: 30px;
+    height: 2.5em;
+    border: solid rgb(252, 237, 205) 1px;
+    border-radius: 4px;
+}
+
+@media (max-width: 425px) {
+    
+    .formCard {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formCard h1 {
+        font-size: xx-large;
+        position: relative;
+        bottom: 100px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    
+    .formCard {
+        width: 90%;
+        height: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formCard h1 {
+        font-size: xx-large;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .inputForm {
+        width: 92%;
+    }
+}
