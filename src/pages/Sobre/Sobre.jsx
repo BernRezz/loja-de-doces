@@ -14,7 +14,7 @@ function Sobre() {
             <div className='container'>
 
                 <div className='minhaFoto'>
-                    <img src="../../src/assets/eu.jfif" alt="" />
+                    <img src="https://cdn.discordapp.com/attachments/1154824436625719398/1154824728016601128/9c6e4959-97d5-4608-81c4-b5a5223b5ce2.png" alt="" />
                 </div>
 
                 <div className='sobreContent'>
